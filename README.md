@@ -1,1 +1,1 @@
-Setting up a page for a recipe following guidance from Odin Project
+A selection of recipes I regularly make myself around the house
