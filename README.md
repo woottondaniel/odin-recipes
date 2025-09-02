@@ -1,1 +1,1 @@
-# odin-recipes
+Setting up a page for a recipe following guidance from Odin Project
