@@ -1,14 +1,21 @@
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
-    font-size: 18px;
+    font-size: 22px;
+    box-sizing: border-box;
+    background-color: rgb(189, 189, 134);
 }
 
-.title {
+h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 32px;
     font-weight: 800;
     color: blueviolet;
+    text-decoration: underline;
+}
+
+h3, h4 {
+    text-decoration: underline;
 }
 
 .sign-off {
@@ -19,4 +26,32 @@
 
 .link{
     color: black;
+}
+
+ol, ul {
+    border: 15px solid #1b7e79;
+    margin: 50px;
+    padding: 30px #1b7e79;
+    list-style-position: inside;
+    background-color: aquamarine;
+}
+
+li:first-child {
+    margin-top: 15px;
+}
+
+li:last-child {
+    margin-bottom: 15px;
+}
+
+li {
+    font-style: normal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    background: none;
+}
+
+.ingredients li {
+    font-style: italic;
 }

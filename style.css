@@ -2,10 +2,14 @@
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 22px;
+    box-sizing: border-box;
+    background-color: rgb(189, 189, 134);
 }
 
-.title {
+h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 32px;
     color: blueviolet;
+    text-decoration: underline;
 }
+
