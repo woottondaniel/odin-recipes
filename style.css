@@ -11,5 +11,35 @@ h1 {
     font-size: 32px;
     color: blueviolet;
     text-decoration: underline;
+    margin: 8px;
+    padding: 8px 20px;
+    border: 20px;
+    border-color: blue;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.recipe-list {
+    padding: 16px;
+    background-color: rgb(110, 110, 42);
+    text-align: center;
+    list-style-position: inside;
+}
+
+.recipe-list ul {
+    padding: 0;
+    margin: 0;
+    list-style-position: inside;
+}
+
+.recipe-list li {
+    background-color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+.recipe-list li a {
+    background-color: transparent;
+    color: inherit;
 }
 
