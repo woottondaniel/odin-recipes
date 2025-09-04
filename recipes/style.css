@@ -12,16 +12,42 @@ h1 {
     font-weight: 800;
     color: blueviolet;
     text-decoration: underline;
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border: 2px solid black;
 }
 
 h3, h4 {
+    border: 2px solid black;
+    padding: 4px 6px;
+    background-color: rgb(128, 203, 203);
+    margin: 10px auto;
+    text-align: center;
     text-decoration: underline;
+    border-radius: 10px;
+}
+
+h3 u, h4 u {
+    background-color: inherit;
 }
 
 .sign-off {
     font-size: 24px;
     font-weight: 600;
     color: blueviolet;
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    padding: 4px 8px;
+    border-radius: 10px;
 }
 
 .link{
@@ -30,7 +56,7 @@ h3, h4 {
 
 ol, ul {
     border: 15px solid #1b7e79;
-    margin: 50px;
+    margin: 30px;
     padding: 30px #1b7e79;
     list-style-position: inside;
     background-color: aquamarine;
@@ -54,4 +80,23 @@ li {
 
 .ingredients li {
     font-style: italic;
+    text-align: center;
 }
+
+.tomato {
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 4px 6px;
+}
+
+.spinach
+    {
+        background-color: darkgreen;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 2px solid white;
+        padding: 2px 4px;
+        border-radius: 3px;
+    }
